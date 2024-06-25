@@ -63,7 +63,7 @@ Ports to be Enabled
 
 <br>
  <VirtualHost *:80>
-    ServerName www.webserver1.com
+    ServerName www.webserver.com
     DocumentRoot /var/www/html
 
     # Ensure Apache logs the actual client's IP address
