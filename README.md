@@ -14,6 +14,7 @@ Ports to be Enabled
 #vi /etc/squid/squid.conf
 
 4.Set Up HTTP Port and Reverse Proxy Settings - </etc/squid/squid.conf>
+
 # Squid reverse proxy configuration
 
 #cache_dir ufs /var/spool/squid 100 16 256
@@ -59,6 +60,7 @@ Ports to be Enabled
 #ufw status
 
 #vi /etc/apache2/sites-available/000-default.conf  - take a backup 
+
 <br>
  <VirtualHost *:80>
     ServerName www.webserver1.com
