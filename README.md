@@ -59,6 +59,7 @@ Ports to be Enabled
 #ufw status
 
 #vi /etc/apache2/sites-available/000-default.conf  - take a backup 
+<br>
  <VirtualHost *:80>
     ServerName www.webserver1.com
     DocumentRoot /var/www/html
@@ -81,6 +82,7 @@ Ports to be Enabled
 2.Enable the Required Apache Modules
 
 #a2enmod remoteip
+
 #a2enmod log_config
    
 3.Restart apache
